@@ -1,0 +1,92 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsmath}
+
+\usepackage[spanish]{babel}
+
+\title{Apuntes de programación lineal}
+
+\author{María y Emmanuel}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\section{Introducción}
+
+La forma estándar de un problema de programación lineal es:
+Dada una matriz $A$ y vectores $b,c$, maximizar $c^Tx$ sujeto a
+$Ax\leq b$.
+
+La forma simplex de un problema de programación lineal es:
+Dada una matriz $A$ y vectores $b,c$, maximizar $c^Tx$ sujeto a
+$Ax= b$.
+
+\section{Tabla}
+
+Cómo colocar una tabla en el documento.
+
+\bigskip
+
+\begin{tabular}{|c|c|c|}
+  \hline
+  &A&B\\
+  \hline
+  Maquina 1&1&2\\
+  Maquina 2&1&1\\
+  \hline
+  
+\end{tabular}
+
+\section{Matriz}
+
+Cómo colocar una matriz.
+
+\begin{equation}
+  \label{eq:1}
+ AB=\begin{pmatrix}
+    0&6&2\\
+    3&7&9
+  \end{pmatrix}
+  \begin{pmatrix}
+    2&7\\
+    8&3\\
+    0&13
+  \end{pmatrix}  
+\end{equation}
+
+\section{Ejemplo}
+
+Un gerente está planeando cómo distribuir la producción de dos productos entre dos máquinas. Para ser manufacturado cada producto requiere cierto tiempo (en horas) en cada una de las máquinas.
+El tiempo requerido está resumido en la siguiente tabla:
+
+\bigskip
+
+\begin{tabular}{|c|c|c|}
+  \hline
+  &A&B\\
+  \hline
+  Maquina 1&1&2\\
+  Maquina 2&1&1\\
+  \hline
+  
+\end{tabular}
+
+\bigskip
+
+La máquina 1 está disponible 40 horas a la semana y la 2 está
+disponible 34 horas a la semana. Si la utilidad obtenida al vender los
+productos A y B es de 2, 3 pesos por unidad, respectivamente, ¿cuál
+debe ser la producción semanal que maximiza la utilidad? ¿Cuál es la utilidad máxima?
+
+\section{Solución}
+
+Se tiene que maximizar 
+
+
+
+\end{document}
